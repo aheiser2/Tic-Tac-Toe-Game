@@ -1,0 +1,36 @@
+#bg {
+    background-color: rebeccapurple; 
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1 {
+    color: white;
+    font-size: 150px !important;
+}
+
+section {
+    text-align: center;
+}
+
+#board {
+    background-color: plum;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 540px;
+    margin: 5px auto;
+}
+
+.box {
+    width: 180px;
+    height: 180px;
+    border: 5px solid lavender;
+    line-height: 180px;
+    font-size: 160px;
+    cursor: pointer;
+}
+
+#status {
+    font-size: 35px;
+    color: palevioletred;
+}
